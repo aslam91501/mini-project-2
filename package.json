@@ -9,11 +9,31 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@metamask/detect-provider": "^2.0.0",
+    "@metamask/providers": "^10.2.1",
+    "@types/node": "18.15.5",
+    "@types/react": "18.0.28",
+    "@types/react-dom": "18.0.11",
     "autoprefixer": "10.4.14",
+    "axios": "^1.4.0",
+    "blockhash": "^0.2.0",
+    "ethers": "^6.6.1",
+    "fs": "^0.0.1-security",
+    "imghash": "^0.0.9",
     "next": "13.4.12",
+    "next-transpile-modules": "^10.0.0",
+    "node-image-hash": "^1.1.0",
+    "png-js": "^1.0.0",
     "postcss": "8.4.27",
+    "prcp": "^0.1.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "tailwindcss": "3.3.3"
+    "react-hot-toast": "^2.4.1",
+    "tailwindcss": "3.3.3",
+    "truffle": "^5.10.1",
+    "ts-steganography": "^3.0.2",
+    "typescript": "5.0.2",
+    "web-digital-watermarking": "^0.0.6",
+    "web3-utils": "^4.0.1"
   }
 }

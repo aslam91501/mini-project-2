@@ -25,3 +25,11 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+input{
+  @apply px-3 py-2 border-gray-300 mt-2 bg-neutral-200
+}
+
+::file-selector-button{
+  @apply bg-blue-500 rounded-full px-3 py-2 text-white border-none text-sm hover:bg-blue-600 hover:cursor-pointer
+}
